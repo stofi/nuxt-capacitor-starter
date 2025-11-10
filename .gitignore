@@ -1,0 +1,33 @@
+# Nuxt dev/build outputs
+.output
+.data
+.nuxt
+.nitro
+.cache
+dist
+
+# Node dependencies
+node_modules
+
+# Logs
+logs
+*.log
+
+# Misc
+.DS_Store
+.fleet
+.idea
+
+# Local env files
+.env
+.env.*
+!.env.example
+
+# Capacitor
+ios/App/App/public
+ios/App/Pods
+ios/App/build
+ios/App/*.xcworkspace
+ios/App/*.xcodeproj/xcuserdata
+ios/App/*.xcodeproj/project.xcworkspace/xcuserdata
+.DS_Store
